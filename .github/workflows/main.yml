@@ -35,3 +35,4 @@ jobs:
         script: |
           cd /var/www/DataPiratesSIH.github.io
           git pull
+          service nginx restart
